@@ -1,609 +1,1191 @@
 <!doctype html>
 <html lang="id" class="h-full">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Trijaya Cleando Pratama</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-  <script src="/_sdk/element_sdk.js"></script>
-  <link rel="stylesheet" href="style.css"
-  <style>@view-transition { navigation: auto; }</style>
-  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
- </head>
- <body class="h-full bg-white text-gray-800 overflow-x-hidden">
-  <div id="app-wrapper" class="h-full w-full overflow-auto"><!-- Sticky Navigation -->
-   <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="flex items-center justify-between h-16 lg:h-20"><!-- Logo --> <a href="#beranda" class="flex items-center gap-3">
-       <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-gradient-to-br from-blue-900 to-blue-600 flex items-center justify-center">
-        <svg class="w-6 h-6 lg:w-7 lg:h-7 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-        </svg>
-       </div><span id="nav-company-name" class="hidden sm:block font-bold text-sm lg:text-base text-blue-900">CV Trijaya Cleando Pratama</span> </a> <!-- Desktop Menu -->
-      <div class="hidden lg:flex items-center gap-8"><a href="#beranda" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Beranda</a> <a href="#tentang" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Tentang Kami</a> <a href="#layanan" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Layanan</a> <a href="#proses" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Proses Kerja</a> <a href="#portfolio" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Portfolio</a> <a href="#kontak" class="btn-primary px-5 py-2.5 rounded-full text-white text-sm font-semibold">Hubungi Kami</a>
-      </div><!-- Mobile Menu Button --> <button id="menu-btn" class="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors">
-       <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-       </svg></button>
-     </div>
-    </div><!-- Mobile Menu -->
-    <div id="mobile-menu" class="mobile-menu fixed inset-0 bg-white z-50 lg:hidden">
-     <div class="flex flex-col h-full">
-      <div class="flex items-center justify-between p-4 border-b"><span class="font-bold text-blue-900">Menu</span> <button id="close-menu" class="p-2 rounded-lg hover:bg-gray-100">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg></button>
-      </div>
-      <div class="flex-1 overflow-auto p-6">
-       <div class="flex flex-col gap-4"><a href="#beranda" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Beranda</a> <a href="#tentang" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Tentang Kami</a> <a href="#layanan" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Layanan</a> <a href="#msc" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">MSC - Masjid Service</a> <a href="#proses" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Proses Kerja</a> <a href="#portfolio" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Portfolio</a> <a href="#kontak" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Hubungi Kami</a>
-       </div>
-      </div>
-      <div class="p-6 border-t"><a href="#kontak" class="mobile-link btn-primary w-full py-4 rounded-2xl text-white text-center font-semibold block">Hubungi Kami</a>
-      </div>
-     </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Trijaya Cleando Pratama</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"
+          rel="stylesheet">
+    <script src="/_sdk/element_sdk.js"></script>
+    <script src="/js/app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>@view-transition {
+        navigation: auto;
+    }</style>
+    <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+</head>
+<body class="h-full bg-white text-gray-800 overflow-x-hidden">
+<div id="app-wrapper" class="h-full w-full overflow-auto"><!-- Sticky Navigation -->
+    <nav id="navbar"
+         class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="flex items-center justify-between h-16 lg:h-20"><!-- Logo --> <a href="#beranda" class="flex items-center gap-3">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-xl flex items-center justify-center">
+                    <img
+                            src="assets/ic_logo.jpg"
+                            alt="CV Trijaya Cleando Pratama"
+                            class="w-full h-full object-contain p-1"
+                    >
+                </div>
+
+                <span id="nav-company-name" class="hidden sm:block font-bold text-sm lg:text-base text-blue-900">CV Trijaya Cleando Pratama</span>
+            </a> <!-- Desktop Menu -->
+                <div class="hidden lg:flex items-center gap-8"><a href="#beranda"
+                                                                  class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Beranda</a>
+                    <a href="#tentang" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Tentang
+                        Kami</a> <a href="#layanan"
+                                    class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Layanan</a>
+                    <a href="#portfolio" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Klien
+                        Kami</a>
+                    <a href="#msc" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Mesjid</a>
+                    <a href="#proses" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Proses
+                        Kerja</a> <a href="#portfolio"
+                                     class="nav-link text-sm font-medium text-gray-700 hover:text-blue-900">Portfolio</a>
+                    <a href="#kontak" class="btn-primary px-5 py-2.5 rounded-full text-white text-sm font-semibold">Hubungi
+                        Kami</a>
+                </div><!-- Mobile Menu Button -->
+                <button id="menu-btn" class="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div><!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu fixed inset-0 bg-white z-50 lg:hidden">
+            <div class="flex flex-col h-full">
+                <div class="flex items-center justify-between p-4 border-b"><span
+                        class="font-bold text-blue-900">Menu</span>
+                    <button id="close-menu" class="p-2 rounded-lg hover:bg-gray-100">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex-1 overflow-auto p-6">
+                    <div class="flex flex-col gap-4">
+                        <a href="#beranda" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Beranda</a>
+                        <a href="#tentang" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Tentang Kami</a>
+                        <a href="#layanan" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Layanan</a>
+                        <a href="#portfolio" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Klien Kami</a>
+                        <a href="#msc" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Mesjid</a>
+                        <a href="#msc" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">MSC -
+                            Masjid Service</a>
+                        <a href="#proses" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Proses Kerja</a>
+                        <a href="#portfolio" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Portfolio</a>
+                        <a href="#kontak" class="mobile-link text-lg font-medium text-gray-700 py-3 border-b border-gray-100">Hubungi Kami</a>
+                    </div>
+                </div>
+                <div class="p-6 border-t"><a href="#kontak"
+                                             class="mobile-link btn-primary w-full py-4 rounded-2xl text-white text-center font-semibold block">Hubungi
+                    Kami</a>
+                </div>
+            </div>
+        </div>
+    </nav><!-- Hero Section -->
+    <section id="beranda" class="gradient-hero min-h-screen pt-20 lg:pt-24 flex items-center relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute top-20 right-0 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-80 h-80 bg-blue-300/10 rounded-full blur-3xl"></div>
+            <svg class="absolute bottom-0 left-0 right-0 text-white" viewbox="0 0 1440 120" fill="currentColor">
+                <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"/>
+            </svg>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-12 lg:py-20">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="section-badge bg-white text-blue-900 mb-6 inline-flex items-center gap-2 px-3 py-1 rounded-full font-semibold shadow-sm"
+                         role="status" aria-label="Terpercaya & Profesional">
+                        <span>Terpercaya &amp; Profesional</span>
+                    </div>
+                    <h1 id="hero-title"
+                        class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white leading-tight mb-6">
+                        Solusi Hygiene, Jasa &amp; Penyewaan Terpercaya</h1>
+                    <p class="text-base sm:text-lg text-blue-100 leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">CV
+                        Trijaya Cleando Pratama menghadirkan solusi terpadu di bidang pemasaran produk kebersihan,
+                        layanan jasa profesional, serta penyewaan peralatan hygiene. Kami berfokus pada layanan
+                        purnajual yang responsif, berkualitas, dan berkelanjutan.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"><a href="#kontak"
+                                                                                                    class="btn-primary px-8 py-4 rounded-2xl text-white font-semibold text-base flex items-center justify-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                        Hubungi Kami </a> <a href="#layanan"
+                                             class="btn-secondary px-8 py-4 rounded-2xl text-white font-semibold text-base flex items-center justify-center gap-2">
+                        Lihat Layanan
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </a>
+                    </div>
+                </div><!-- Hero Illustration -->
+                <div class="hidden lg:flex justify-center">
+                    <div class="relative floating">
+                        <div class="w-80 h-80 xl:w-96 xl:h-96 bg-white/10 rounded-3xl backdrop-blur-sm border border-white/20 flex items-center justify-center">
+                            <svg class="w-48 h-48 xl:w-56 xl:h-56 text-white/90" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                      d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                        </div><!-- Floating Elements -->
+                        <div class="absolute -top-4 -right-4 w-20 h-20 bg-blue-400/30 rounded-2xl backdrop-blur-sm flex items-center justify-center"
+                             style="animation-delay: 0.5s;">
+                            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <div class="absolute -bottom-6 -left-6 w-16 h-16 bg-green-400/30 rounded-xl backdrop-blur-sm flex items-center justify-center"
+                             style="animation-delay: 1s;">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Stats -->
+            <div class="grid grid-cols-3 gap-4 mt-12 lg:mt-16">
+                <div class="text-center p-4 bg-white/10 backdrop-blur-sm rounded-2xl">
+                    <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+                        10+
+                    </div>
+                    <div class="text-xs sm:text-sm text-blue-200 mt-1">
+                        Tahun Pengalaman
+                    </div>
+                </div>
+                <div class="text-center p-4 bg-white/10 backdrop-blur-sm rounded-2xl">
+                    <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+                        500+
+                    </div>
+                    <div class="text-xs sm:text-sm text-blue-200 mt-1">
+                        Klien Puas
+                    </div>
+                </div>
+                <div class="text-center p-4 bg-white/10 backdrop-blur-sm rounded-2xl">
+                    <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+                        24/7
+                    </div>
+                    <div class="text-xs sm:text-sm text-blue-200 mt-1">
+                        Layanan Support
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Tentang Kami Section -->
+    <section id="tentang" class="py-16 lg:py-24 bg-gradient-to-b from-white to-blue-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <div class="section-badge">
+                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                    </svg>
+                    Tentang Kami
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Komitmen Kami untuk
+                    Kebersihan</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Mitra terpercaya dalam solusi kebersihan dan hygiene
+                    profesional</p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-8"><!-- Visi -->
+                <div class="card-service bg-white rounded-3xl p-8 shadow-lg border border-blue-100">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="icon-box">
+                            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">Visi</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">Menjadi penyedia layanan purnajual terdepan dan paling
+                        tepercaya di industri dengan memastikan kepuasan dan loyalitas pelanggan secara berkelanjutan.
+                        Kami berkomitmen menjadi mitra pilihan utama pelanggan dalam memaksimalkan nilai serta masa
+                        pakai produk melalui dukungan purnajual yang unggul, serta membangun perusahaan yang berpusat
+                        pada pelanggan, di mana setiap interaksi menciptakan pengalaman positif dan kepercayaan jangka
+                        panjang.</p>
+                </div><!-- Misi -->
+                <div class="card-service bg-white rounded-3xl p-8 shadow-lg border border-blue-100">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="icon-box">
+                            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">Misi</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed text-sm">Kami menyediakan dukungan teknis dan layanan
+                        perbaikan yang cepat, andal, dan mudah diakses melalui berbagai saluran komunikasi. Kami
+                        mengelola hubungan pelanggan pasca pembelian untuk memastikan pengalaman yang konsisten dan
+                        bernilai, sekaligus meningkatkan loyalitas pelanggan. Kami menjunjung tinggi transparansi
+                        melalui penyampaian informasi garansi, panduan penggunaan, dan edukasi produk secara jelas.
+                        Umpan balik pelanggan kami kumpulkan secara aktif sebagai dasar perbaikan dan inovasi
+                        berkelanjutan.</p>
+                </div>
+            </div><!-- Values -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
+                    <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-blue-900 text-sm">
+                        Terpercaya
+                    </div>
+                </div>
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
+                    <div class="w-12 h-12 mx-auto mb-3 bg-green-100 rounded-xl flex items-center justify-center">
+                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-blue-900 text-sm">
+                        Customer-Centric
+                    </div>
+                </div>
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
+                    <div class="w-12 h-12 mx-auto mb-3 bg-purple-100 rounded-xl flex items-center justify-center">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-blue-900 text-sm">
+                        Berkelanjutan
+                    </div>
+                </div>
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
+                    <div class="w-12 h-12 mx-auto mb-3 bg-orange-100 rounded-xl flex items-center justify-center">
+                        <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-blue-900 text-sm">
+                        Responsif
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Layanan Section -->
+    <section id="layanan" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <div class="section-badge">
+                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Layanan Kami
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Solusi Lengkap untuk Kebutuhan
+                    Anda</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Layanan profesional untuk kebersihan dan hygiene yang
+                    optimal</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6 lg:gap-8"><!-- Pemasaran Produk -->
+                <div class="card-service bg-gradient-to-br from-blue-50 to-white rounded-3xl p-6 lg:p-8 border border-blue-100">
+                    <div class="icon-box mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-4">Pemasaran Produk</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Produk toilet &amp; hygiene</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Premium scenting</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Keset pintu</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Air freshener</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Vacuum cleaner</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Produk kebersihan lainnya</span></li>
+                    </ul>
+                </div><!-- Jasa -->
+                <div class="card-service bg-gradient-to-br from-green-50 to-white rounded-3xl p-6 lg:p-8 border border-green-100">
+                    <div class="icon-box mb-6" style="background: linear-gradient(135deg, #d1fae5, #ffffff);">
+                        <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-4">Jasa Profesional</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Layanan kebersihan</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Perawatan fasilitas</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Service struktur</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Perancangan &amp; perencanaan</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Maintenance &amp; layanan purnajual</span></li>
+                    </ul>
+                </div><!-- Penyewaan -->
+                <div class="card-service bg-gradient-to-br from-purple-50 to-white rounded-3xl p-6 lg:p-8 border border-purple-100">
+                    <div class="icon-box mb-6" style="background: linear-gradient(135deg, #ede9fe, #ffffff);">
+                        <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-4">Penyewaan Alat</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Pengharum ruangan (diffuser &amp; aerosol)</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Mesin polisher</span></li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600 text-sm">Set alat cuci karpet</span></li>
+                    </ul>
+                    <div class="mt-6 pt-6 border-t border-purple-100">
+                        <p class="text-xs text-gray-500">* Tersedia untuk jangka pendek &amp; panjang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- MSC Section -->
+    <section id="msc" class="py-16 lg:py-24 gradient-msc relative overflow-hidden"><!-- Background Elements -->
+        <div class="absolute inset-0">
+            <div class="absolute top-0 right-0 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-green-400/10 rounded-full blur-3xl"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center gap-2 bg-white/95 px-4 py-2 rounded-full text-sm font-semibold text-blue-900 mb-4">
+                    <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                    </svg>
+                    Program Unggulan
+                </div><!-- Masjid Icon -->
+                <div class="mb-6">
+                    <div class="w-24 h-24 mx-auto bg-white/10 backdrop-blur-sm rounded-3xl flex items-center justify-center">
+                        <svg class="w-14 h-14 text-white" viewbox="0 0 64 64" fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <path d="M32 8c-8 0-14 6-14 14v4h28v-4c0-8-6-14-14-14z"/>
+                            <path d="M32 2v6"/>
+                            <circle cx="32" cy="2" r="2" fill="currentColor"/>
+                            <rect x="8" y="26" width="48" height="32" rx="2"/>
+                            <rect x="26" y="38" width="12" height="20"/>
+                            <circle cx="32" cy="20" r="4"/>
+                            <path d="M14 26v-4a4 4 0 014-4"/>
+                            <path d="M50 26v-4a4 4 0 00-4-4"/>
+                            <rect x="12" y="32" width="8" height="12" rx="4"/>
+                            <rect x="44" y="32" width="8" height="12" rx="4"/>
+                        </svg>
+                    </div>
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">MSC – Masjid Service Center</h2>
+                <p class="text-blue-100 max-w-3xl mx-auto leading-relaxed">MSC (Masjid Service Center) adalah program
+                    khusus CV Trijaya Cleando Pratama yang berfokus pada kebersihan, kenyamanan, dan perawatan fasilitas
+                    masjid secara profesional. Program ini dirancang untuk membantu pengurus masjid menciptakan
+                    lingkungan ibadah yang bersih, harum, nyaman, dan terawat.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-12">
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                    <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-white mb-2">Kebersihan Area Masjid</h4>
+                    <p class="text-blue-200 text-sm">Pembersihan menyeluruh area dalam dan luar masjid</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                    <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-white mb-2">Pengharum Ruangan</h4>
+                    <p class="text-blue-200 text-sm">Sistem diffuser &amp; aerosol khusus masjid</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                    <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-white mb-2">Perawatan Karpet &amp; Lantai</h4>
+                    <p class="text-blue-200 text-sm">Treatment profesional untuk karpet dan lantai masjid</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                    <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-white mb-2">Penyewaan Alat</h4>
+                    <p class="text-blue-200 text-sm">Alat kebersihan khusus untuk keperluan masjid</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10 sm:col-span-2 lg:col-span-2">
+                    <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-white mb-2">Pendampingan &amp; Konsultasi</h4>
+                    <p class="text-blue-200 text-sm">Tim ahli siap mendampingi pengurus masjid dalam perawatan fasilitas
+                        kebersihan secara berkelanjutan</p>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="#kontak"
+                                                                           class="bg-white text-blue-900 px-8 py-4 rounded-2xl font-semibold text-base flex items-center justify-center gap-2 hover:bg-blue-50 transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                </svg>
+                Konsultasi Program MSC </a> <a id="msc-wa-btn"
+                                               href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20program%20MSC%20(Masjid%20Service%20Center)"
+                                               target="_blank" rel="noopener noreferrer"
+                                               class="bg-green-500 text-white px-8 py-4 rounded-2xl font-semibold text-base flex items-center justify-center gap-2 hover:bg-green-600 transition-colors">
+                <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Hubungi via WhatsApp </a>
+            </div>
+        </div>
+    </section><!-- Proses Kerja Section -->
+    <section id="proses" class="py-16 lg:py-24 bg-gradient-to-b from-blue-50/50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <div class="section-badge">
+                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                    </svg>
+                    Proses Kerja
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Bagaimana Kami Bekerja</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Memberikan kualitas layanan, pemecahan masalah, dan respon
+                    yang akurat</p>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative"><!-- Timeline -->
+                    <div class="timeline-line hidden sm:block"></div><!-- Step 1 -->
+                    <div class="relative flex gap-6 pb-12">
+                        <div class="timeline-dot pulse-ring flex-shrink-0"><span
+                                class="text-white font-bold text-sm">1</span>
+                        </div>
+                        <div class="flex-1 pt-2">
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
+                                <h4 class="text-lg font-bold text-blue-900 mb-2">Layanan</h4>
+                                <p class="text-gray-600">Analisis kebutuhan dan perencanaan layanan yang sesuai dengan
+                                    kondisi dan kebutuhan spesifik Anda.</p>
+                            </div>
+                        </div>
+                    </div><!-- Step 2 -->
+                    <div class="relative flex gap-6 pb-12">
+                        <div class="timeline-dot flex-shrink-0"><span class="text-white font-bold text-sm">2</span>
+                        </div>
+                        <div class="flex-1 pt-2">
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
+                                <h4 class="text-lg font-bold text-blue-900 mb-2">Pra Operasional</h4>
+                                <p class="text-gray-600">Penataan, pengelolaan anggaran, perekrutan, dan pelatihan tim
+                                    untuk memastikan kesiapan optimal.</p>
+                            </div>
+                        </div>
+                    </div><!-- Step 3 -->
+                    <div class="relative flex gap-6">
+                        <div class="timeline-dot flex-shrink-0"><span class="text-white font-bold text-sm">3</span>
+                        </div>
+                        <div class="flex-1 pt-2">
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
+                                <h4 class="text-lg font-bold text-blue-900 mb-2">Operasional</h4>
+                                <p class="text-gray-600">Pelaksanaan, peninjauan berkala, dan evaluasi berkelanjutan
+                                    untuk memastikan standar kualitas tertinggi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <div class="section-badge">
+                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                    </svg>
+                    Portfolio
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Klien Kami</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-8">Dipercaya oleh berbagai sektor industri</p>
+                <!-- Filter Buttons -->
+                <div class="flex flex-wrap justify-center gap-3 mb-8">
+                    <button class="portfolio-filter-btn active px-6 py-3 rounded-full font-semibold text-sm transition-all"
+                            data-category="all"> Semua
+                    </button>
+                    <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all"
+                            data-category="perkantoran"> Perkantoran
+                    </button>
+                    <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all"
+                            data-category="retail"> Retail &amp; Pertokoan
+                    </button>
+                    <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all"
+                            data-category="masjid"> Masjid
+                    </button>
+                    <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all"
+                            data-category="industri"> Industri
+                    </button>
+                </div>
+            </div><!-- Portfolio Grid -->
+            <div id="portfolio-grid" class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6"><!-- Perkantoran -->
+                <div class="portfolio-item" data-category="perkantoran">
+                    <div class="portfolio-card aspect-square bg-gradient-to-br from-blue-600 to-blue-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
+                        <div class="absolute inset-0 flex items-center justify-center z-0">
+                            <svg class="w-20 h-20 text-white/20" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                            </svg>
+                        </div>
+                        <div class="relative z-10">
+                            <h4 class="text-white font-bold text-lg">Perkantoran</h4>
+                            <p class="text-blue-200 text-sm">Office Buildings</p>
+                        </div>
+                    </div>
+                </div><!-- Retail -->
+                <div class="portfolio-item" data-category="retail">
+                    <div class="portfolio-card aspect-square bg-gradient-to-br from-green-600 to-green-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
+                        <div class="absolute inset-0 flex items-center justify-center z-0">
+                            <svg class="w-20 h-20 text-white/20" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                      d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                        </svg>
+                        </div>
+                        <div class="relative z-10">
+                            <h4 class="text-white font-bold text-lg">Retail &amp; Pertokoan</h4>
+                            <p class="text-green-200 text-sm">Retail Stores</p>
+                        </div>
+                    </div>
+                </div><!-- Masjid -->
+                <div class="portfolio-item" data-category="masjid">
+                    <div class="portfolio-card aspect-square bg-gradient-to-br from-purple-600 to-purple-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
+                        <div class="absolute inset-0 flex items-center justify-center z-0">
+                            <svg class="w-20 h-20 text-white/20" viewbox="0 0 64 64" fill="none" stroke="currentColor"
+                                 stroke-width="1.5">
+                                <path d="M32 8c-8 0-14 6-14 14v4h28v-4c0-8-6-14-14-14z"/>
+                                <path d="M32 2v6"/>
+                                <circle cx="32" cy="2" r="2" fill="currentColor"/>
+                                <rect x="8" y="26" width="48" height="32" rx="2"/>
+                            </svg>
+                        </div>
+                        <div class="relative z-10">
+                            <h4 class="text-white font-bold text-lg">Masjid</h4>
+                            <p class="text-purple-200 text-sm">Mosques</p>
+                        </div>
+                    </div>
+                </div><!-- Industri -->
+                <div class="portfolio-item" data-category="industri">
+                    <div class="portfolio-card aspect-square bg-gradient-to-br from-orange-600 to-orange-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
+                        <div class="absolute inset-0 flex items-center justify-center z-0">
+                            <svg class="w-20 h-20 text-white/20" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                      d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                        </div>
+                        <div class="relative z-10">
+                            <h4 class="text-white font-bold text-lg">Industri</h4>
+                            <p class="text-orange-200 text-sm">Industrial</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Portfolio Images Container -->
+            <div id="portfolio-images" class="mt-12">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <!-- Placeholder images with styled background -->
+                    <div class="portfolio-image-item perkantoran aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center p-6 border-2 border-blue-300">
+                        <div class="text-center">
+                            <svg class="w-12 h-12 mx-auto mb-2 text-blue-600" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                            </svg>
+                            <p class="text-xs text-blue-700 font-medium">Kantor Project 1</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-image-item perkantoran aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center p-6 border-2 border-blue-300">
+                        <div class="text-center">
+                            <svg class="w-12 h-12 mx-auto mb-2 text-blue-600" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                            </svg>
+                            <p class="text-xs text-blue-700 font-medium">Kantor Project 2</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-image-item perkantoran aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center p-6 border-2 border-blue-300">
+                        <div class="text-center">
+                            <svg class="w-12 h-12 mx-auto mb-2 text-blue-600" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+                            </svg>
+                            <p class="text-xs text-blue-700 font-medium">Kantor Project 3</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-image-item retail aspect-square bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center p-6 border-2 border-green-300">
+                        <div class="text-center">
+                            <svg class="w-12 h-12 mx-auto mb-2 text-green-600" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                            </svg>
+                            <p class="text-xs text-green-700 font-medium">Retail Project 1</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-image-item retail aspect-square bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center p-6 border-2 border-green-300">
+                        <div class="text-center">
+                            <svg class="w-12 h-12 mx-auto mb-2 text-green-600" fill="none" stroke="currentColor"
+                                 viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            <p class="text-xs text-green-700 font-medium">Retail Project 2</p>
+                        </div>
+                    </div>
+                    <!-- MASJID PROJECT 1 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid1.jpeg"
+                         data-title="Masjid Project 1">
+                        <img src="assets/mesjid/mesjid1.jpeg" alt="Masjid Project 1" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 1</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 2 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid2.jpeg"
+                         data-title="Masjid Project 2">
+                        <img src="assets/mesjid/mesjid2.jpeg" alt="Masjid Project 2" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 2</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 3 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid3.jpeg"
+                         data-title="Masjid Project 3">
+                        <img src="assets/mesjid/mesjid3.jpeg" alt="Masjid Project 3" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 3</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 4 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid4.jpeg"
+                         data-title="Masjid Project 4">
+                        <img src="assets/mesjid/mesjid4.jpeg" alt="Masjid Project 4" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 4</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 5 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid5.jpeg"
+                         data-title="Masjid Project 5">
+                        <img src="assets/mesjid/mesjid5.jpeg" alt="Masjid Project 5" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 5</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 6 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid6.jpeg"
+                         data-title="Masjid Project 6">
+                        <img src="assets/mesjid/mesjid6.jpeg" alt="Masjid Project 6" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 6</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 7 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid7.jpeg"
+                         data-title="Masjid Project 7">
+                        <img src="assets/mesjid/mesjid7.jpeg" alt="Masjid Project 7" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 7</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 8 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid8.jpeg"
+                         data-title="Masjid Project 8">
+                        <img src="assets/mesjid/mesjid8.jpeg" alt="Masjid Project 8" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 8</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 9 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid9.jpeg"
+                         data-title="Masjid Project 9">
+                        <img src="assets/mesjid/mesjid9.jpeg" alt="Masjid Project 9" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 9</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 10 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid10.jpeg"
+                         data-title="Masjid Project 10">
+                        <img src="assets/mesjid/mesjid10.jpeg" alt="Masjid Project 10" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 10</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 11 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid11.jpeg"
+                         data-title="Masjid Project 11">
+                        <img src="assets/mesjid/mesjid11.jpeg" alt="Masjid Project 11" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 11</p>
+                        </div>
+                    </div>
+
+                    <!-- MASJID PROJECT 12 -->
+                    <div class="portfolio-image-item masjid aspect-square rounded-2xl overflow-hidden relative border-2 border-purple-300 cursor-pointer group"
+                         data-image="assets/mesjid/mesjid12.jpeg"
+                         data-title="Masjid Project 12">
+                        <img src="assets/mesjid/mesjid12.jpeg" alt="Masjid Project 12" loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/30"></div>
+                        <div class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] px-2 py-1 rounded-full font-semibold shadow">
+                            MSC Masjid
+                        </div>
+                        <div class="absolute bottom-0 w-full p-3 text-center bg-gradient-to-t from-black/70 to-transparent">
+                            <p class="text-xs text-white font-semibold tracking-wide">Masjid Project 12</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section><!-- Contact Section -->
+    <section id="kontak" class="py-16 lg:py-24 bg-gradient-to-b from-blue-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <div class="section-badge">
+                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Hubungi Kami
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Siap Membantu Anda</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Konsultasikan kebutuhan kebersihan dan hygiene Anda bersama
+                    tim profesional kami</p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-6 mb-8"><!-- WhatsApp Card --> <a id="main-wa-btn"
+                                                                                      href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20CV%20Trijaya%20Cleando%20Pratama"
+                                                                                      target="_blank"
+                                                                                      rel="noopener noreferrer"
+                                                                                      class="card-service bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 text-white flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">WhatsApp</h4>
+                    <p class="text-green-100 text-sm mb-4">Respon cepat dalam hitungan menit</p><span
+                        class="bg-white/20 px-4 py-2 rounded-full text-sm font-medium">Chat Sekarang →</span> </a>
+                    <!-- Email Card -->
+                    <div class="card-service bg-gradient-to-br from-blue-500 to-blue-600 rounded-3xl p-8 text-white flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Email</h4>
+                        <p class="text-blue-100 text-sm mb-4">Untuk proposal dan dokumen</p><span
+                            class="bg-white/20 px-4 py-2 rounded-full text-sm font-medium">info@trijayacleando.com</span>
+                    </div>
+                </div><!-- Contact Info -->
+                <div class="bg-white rounded-3xl p-8 shadow-lg border border-blue-100">
+                    <div class="grid sm:grid-cols-3 gap-6">
+                        <div class="text-center">
+                            <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor"
+                                     viewbox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <h5 class="font-semibold text-blue-900 text-sm mb-1">Alamat</h5>
+                            <p class="text-gray-600 text-xs">JL. Andir No.130 RT 04/08<br>
+                                Kel. Dungus Cariang, Kec. Andir<br>
+                                Bandung</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor"
+                                     viewbox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <h5 class="font-semibold text-blue-900 text-sm mb-1">Jam Operasional</h5>
+                            <p class="text-gray-600 text-xs">Senin - Sabtu: 08:00 - 17:00</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor"
+                                     viewbox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <h5 class="font-semibold text-blue-900 text-sm mb-1">Telepon</h5>
+                            <p class="text-gray-600 text-xs">+62 812 3456 7890</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social media icons below the contact info (use brand SVGs) -->
+                <div class="mt-6 text-center">
+                    <h5 class="font-semibold text-blue-900 mb-3">Ikuti Kami</h5>
+                    <div class="flex items-center justify-center gap-4">
+                        <a href="https://instagram.com/trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="Instagram" class="inline-flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <!-- Instagram brand icon -->
+                                <svg class="w-6 h-6 text-pink-600" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7.25a4.75 4.75 0 110 9.5 4.75 4.75 0 010-9.5zm0 1.5a3.25 3.25 0 100 6.5 3.25 3.25 0 000-6.5zM17.75 6a1 1 0 110 2 1 1 0 010-2z"/>
+                            </svg>
+                            </div>
+                        </a>
+                        <a href="https://facebook.com/trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="Facebook" class="inline-flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <!-- Facebook brand icon -->
+                                <svg class="w-6 h-6 text-blue-700" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2.1V12h2.1V9.7c0-2.1 1.2-3.3 3-3.3.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.4 2.9h-1.8v7A10 10 0 0022 12z"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="TikTok" class="inline-flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <!-- TikTok brand icon -->
+                                <svg class="w-6 h-6 text-black" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M15.5 3.5h2.8v2.8a5.7 5.7 0 01-5.7-2.8v6.1a5.6 5.6 0 11-5.6-5.6v2.8A2.8 2.8 0 0012.8 12v7.3a2.9 2.9 0 11-2.9-2.9v-7.3a5.6 5.6 0 005.6 5.6V3.5z"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://youtube.com/@trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="YouTube" class="inline-flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <!-- YouTube brand icon -->
+                                <svg class="w-6 h-6 text-red-600" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.5 6.2a2.8 2.8 0 00-1.9-2C19.9 3.5 12 3.5 12 3.5s-7.9 0-9.6.7A2.8 2.8 0 00.5 6.2 29.7 29.7 0 000 12a29.7 29.7 0 00.5 5.8 2.8 2.8 0 001.9 2c1.7.7 9.6.7 9.6.7s7.9 0 9.6-.7a2.8 2.8 0 001.9-2A29.7 29.7 0 0024 12a29.7 29.7 0 00-.5-5.8zM9.8 15.5V8.5l6.4 3.5-6.4 3.5z"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-xl flex items-center justify-center">
+                            <img
+                                    src="assets/ic_logo.jpg"
+                                    alt="CV Trijaya Cleando Pratama"
+                                    class="w-full h-full object-contain p-1"
+                            >
+                        </div>
+                        <span id="footer-company-name" class="font-bold">CV Trijaya Cleando Pratama</span>
+                    </div>
+                    <p class="text-blue-200 text-sm">Solusi terpadu pemasaran produk kebersihan, layanan jasa
+                        profesional, dan penyewaan peralatan hygiene.</p>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Layanan</h5>
+                    <ul class="space-y-2 text-blue-200 text-sm">
+                        <li><a href="#layanan" class="hover:text-white transition-colors">Pemasaran Produk</a></li>
+                        <li><a href="#layanan" class="hover:text-white transition-colors">Jasa Profesional</a></li>
+                        <li><a href="#layanan" class="hover:text-white transition-colors">Penyewaan Alat</a></li>
+                        <li><a href="#msc" class="hover:text-white transition-colors">MSC - Masjid Service Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Kontak</h5>
+                    <ul class="space-y-2 text-blue-200 text-sm">
+                        <li>📍 JL. Andir No.130 RT 04/08, Kel. Dungus Cariang, Kec. Andir, Bandung</li>
+                        <li>📞 +62 812 3456 7890</li>
+                        <li>✉️ info@trijayacleando.com</li>
+                    </ul>
+                    <!-- Social icons in footer contact column -->
+                    <div class="mt-4 flex gap-3">
+                        <a href="https://instagram.com/trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="Instagram" class="text-blue-200 hover:text-white">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7.25a4.75 4.75 0 110 9.5 4.75 4.75 0 010-9.5zm0 1.5a3.25 3.25 0 100 6.5 3.25 3.25 0 000-6.5zM17.75 6a1 1 0 110 2 1 1 0 010-2z"/>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="Facebook" class="text-blue-200 hover:text-white">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2.1V12h2.1V9.7c0-2.1 1.2-3.3 3-3.3.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.4 2.9h-1.8v7A10 10 0 0022 12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="TikTok" class="text-blue-200 hover:text-white">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M15.5 3.5h2.8v2.8a5.7 5.7 0 01-5.7-2.8v6.1a5.6 5.6 0 11-5.6-5.6v2.8A2.8 2.8 0 0012.8 12v7.3a2.9 2.9 0 11-2.9-2.9v-7.3a5.6 5.6 0 005.6 5.6V3.5z"/>
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com/@trijayacleandopratama" target="_blank" rel="noopener noreferrer"
+                           aria-label="YouTube" class="text-blue-200 hover:text-white">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.5 6.2a2.8 2.8 0 00-1.9-2C19.9 3.5 12 3.5 12 3.5s-7.9 0-9.6.7A2.8 2.8 0 00.5 6.2 29.7 29.7 0 000 12a29.7 29.7 0 00.5 5.8 2.8 2.8 0 001.9 2c1.7.7 9.6.7 9.6.7s7.9 0 9.6-.7a2.8 2.8 0 001.9-2A29.7 29.7 0 0024 12a29.7 29.7 0 00-.5-5.8zM9.8 15.5V8.5l6.4 3.5-6.4 3.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="main.js"></script>
+<script>(function () {
+    function c() {
+        var b = a.contentDocument || a.contentWindow.document;
+        if (b) {
+            var d = b.createElement('script');
+            d.innerHTML = "window.__CF$cv$params={r:'9c03766c710b1ecc',t:'MTc2ODc5NTYxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName('head')[0].appendChild(d)
+        }
+    }
+
+    if (document.body) {
+        var a = document.createElement('iframe');
+        a.height = 1;
+        a.width = 1;
+        a.style.position = 'absolute';
+        a.style.top = 0;
+        a.style.left = 0;
+        a.style.border = 'none';
+        a.style.visibility = 'hidden';
+        document.body.appendChild(a);
+        if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else {
+            var e = document.onreadystatechange || function () {
+            };
+            document.onreadystatechange = function (b) {
+                e(b);
+                'loading' !== document.readyState && (document.onreadystatechange = e, c())
+            }
+        }
+    }
+})();</script>
+<!-- MODAL PREVIEW -->
+<div
+        id="image-modal"
+        class="fixed inset-0 bg-black/80 z-50 hidden items-center justify-center p-4"
+>
+    <div class="relative max-w-4xl w-full">
+
+        <!-- CLOSE BUTTON -->
+        <button
+                id="close-modal"
+                class="absolute -top-10 right-0 text-white text-sm bg-black/60 px-3 py-1 rounded-full hover:bg-black"
+        >
+            ✕ Tutup
+        </button>
+
+        <!-- IMAGE -->
+        <img
+                id="modal-image"
+                src=""
+                alt=""
+                class="w-full max-h-[80vh] object-contain rounded-xl shadow-lg"
+        >
+
+        <!-- TITLE -->
+        <p
+                id="modal-title"
+                class="mt-3 text-center text-white font-semibold"
+        ></p>
+
     </div>
-   </nav><!-- Hero Section -->
-   <section id="beranda" class="gradient-hero min-h-screen pt-20 lg:pt-24 flex items-center relative overflow-hidden"><!-- Background Elements -->
-    <div class="absolute inset-0 overflow-hidden">
-     <div class="absolute top-20 right-0 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl"></div>
-     <div class="absolute bottom-0 left-0 w-80 h-80 bg-blue-300/10 rounded-full blur-3xl"></div>
-     <svg class="absolute bottom-0 left-0 right-0 text-white" viewbox="0 0 1440 120" fill="currentColor"><path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" />
-     </svg>
-    </div>
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-12 lg:py-20">
-     <div class="grid lg:grid-cols-2 gap-12 items-center">
-      <div class="text-center lg:text-left">
-       <div class="section-badge bg-white/20 text-white mb-6">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-        </svg> Terpercaya &amp; Profesional
-       </div>
-       <h1 id="hero-title" class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white leading-tight mb-6">Solusi Hygiene, Jasa &amp; Penyewaan Terpercaya</h1>
-       <p class="text-base sm:text-lg text-blue-100 leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">CV Trijaya Cleando Pratama menghadirkan solusi terpadu di bidang pemasaran produk kebersihan, layanan jasa profesional, serta penyewaan peralatan hygiene. Kami berfokus pada layanan purnajual yang responsif, berkualitas, dan berkelanjutan.</p>
-       <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"><a href="#kontak" class="btn-primary px-8 py-4 rounded-2xl text-white font-semibold text-base flex items-center justify-center gap-2">
-         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-         </svg> Hubungi Kami </a> <a href="#layanan" class="btn-secondary px-8 py-4 rounded-2xl text-white font-semibold text-base flex items-center justify-center gap-2"> Lihat Layanan 
-         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-         </svg></a>
-       </div>
-      </div><!-- Hero Illustration -->
-      <div class="hidden lg:flex justify-center">
-       <div class="relative floating">
-        <div class="w-80 h-80 xl:w-96 xl:h-96 bg-white/10 rounded-3xl backdrop-blur-sm border border-white/20 flex items-center justify-center">
-         <svg class="w-48 h-48 xl:w-56 xl:h-56 text-white/90" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-         </svg>
-        </div><!-- Floating Elements -->
-        <div class="absolute -top-4 -right-4 w-20 h-20 bg-blue-400/30 rounded-2xl backdrop-blur-sm flex items-center justify-center" style="animation-delay: 0.5s;">
-         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-         </svg>
-        </div>
-        <div class="absolute -bottom-6 -left-6 w-16 h-16 bg-green-400/30 rounded-xl backdrop-blur-sm flex items-center justify-center" style="animation-delay: 1s;">
-         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg>
-        </div>
-       </div>
-      </div>
-     </div><!-- Stats -->
-     <div class="grid grid-cols-3 gap-4 mt-12 lg:mt-16">
-      <div class="text-center p-4 bg-white/10 backdrop-blur-sm rounded-2xl">
-       <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-        10+
-       </div>
-       <div class="text-xs sm:text-sm text-blue-200 mt-1">
-        Tahun Pengalaman
-       </div>
-      </div>
-      <div class="text-center p-4 bg-white/10 backdrop-blur-sm rounded-2xl">
-       <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-        500+
-       </div>
-       <div class="text-xs sm:text-sm text-blue-200 mt-1">
-        Klien Puas
-       </div>
-      </div>
-      <div class="text-center p-4 bg-white/10 backdrop-blur-sm rounded-2xl">
-       <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-        24/7
-       </div>
-       <div class="text-xs sm:text-sm text-blue-200 mt-1">
-        Layanan Support
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Tentang Kami Section -->
-   <section id="tentang" class="py-16 lg:py-24 bg-gradient-to-b from-white to-blue-50/50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="text-center mb-12">
-      <div class="section-badge">
-       <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-       </svg> Tentang Kami
-      </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Komitmen Kami untuk Kebersihan</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Mitra terpercaya dalam solusi kebersihan dan hygiene profesional</p>
-     </div>
-     <div class="grid lg:grid-cols-2 gap-8"><!-- Visi -->
-      <div class="card-service bg-white rounded-3xl p-8 shadow-lg border border-blue-100">
-       <div class="flex items-center gap-4 mb-6">
-        <div class="icon-box">
-         <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-         </svg>
-        </div>
-        <h3 class="text-xl font-bold text-blue-900">Visi</h3>
-       </div>
-       <p class="text-gray-600 leading-relaxed">Menjadi penyedia layanan purnajual terdepan dan paling tepercaya di industri dengan memastikan kepuasan dan loyalitas pelanggan secara berkelanjutan. Kami berkomitmen menjadi mitra pilihan utama pelanggan dalam memaksimalkan nilai serta masa pakai produk melalui dukungan purnajual yang unggul, serta membangun perusahaan yang berpusat pada pelanggan, di mana setiap interaksi menciptakan pengalaman positif dan kepercayaan jangka panjang.</p>
-      </div><!-- Misi -->
-      <div class="card-service bg-white rounded-3xl p-8 shadow-lg border border-blue-100">
-       <div class="flex items-center gap-4 mb-6">
-        <div class="icon-box">
-         <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
-         </svg>
-        </div>
-        <h3 class="text-xl font-bold text-blue-900">Misi</h3>
-       </div>
-       <p class="text-gray-600 leading-relaxed text-sm">Kami menyediakan dukungan teknis dan layanan perbaikan yang cepat, andal, dan mudah diakses melalui berbagai saluran komunikasi. Kami mengelola hubungan pelanggan pasca pembelian untuk memastikan pengalaman yang konsisten dan bernilai, sekaligus meningkatkan loyalitas pelanggan. Kami menjunjung tinggi transparansi melalui penyampaian informasi garansi, panduan penggunaan, dan edukasi produk secara jelas. Umpan balik pelanggan kami kumpulkan secara aktif sebagai dasar perbaikan dan inovasi berkelanjutan.</p>
-      </div>
-     </div><!-- Values -->
-     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
-      <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
-       <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
-        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-        </svg>
-       </div>
-       <div class="font-semibold text-blue-900 text-sm">
-        Terpercaya
-       </div>
-      </div>
-      <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
-       <div class="w-12 h-12 mx-auto mb-3 bg-green-100 rounded-xl flex items-center justify-center">
-        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-        </svg>
-       </div>
-       <div class="font-semibold text-blue-900 text-sm">
-        Customer-Centric
-       </div>
-      </div>
-      <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
-       <div class="w-12 h-12 mx-auto mb-3 bg-purple-100 rounded-xl flex items-center justify-center">
-        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-        </svg>
-       </div>
-       <div class="font-semibold text-blue-900 text-sm">
-        Berkelanjutan
-       </div>
-      </div>
-      <div class="text-center p-6 bg-white rounded-2xl shadow-sm border border-blue-50">
-       <div class="w-12 h-12 mx-auto mb-3 bg-orange-100 rounded-xl flex items-center justify-center">
-        <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-       </div>
-       <div class="font-semibold text-blue-900 text-sm">
-        Responsif
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Layanan Section -->
-   <section id="layanan" class="py-16 lg:py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="text-center mb-12">
-      <div class="section-badge">
-       <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-       </svg> Layanan Kami
-      </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Solusi Lengkap untuk Kebutuhan Anda</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Layanan profesional untuk kebersihan dan hygiene yang optimal</p>
-     </div>
-     <div class="grid md:grid-cols-3 gap-6 lg:gap-8"><!-- Pemasaran Produk -->
-      <div class="card-service bg-gradient-to-br from-blue-50 to-white rounded-3xl p-6 lg:p-8 border border-blue-100">
-       <div class="icon-box mb-6">
-        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-        </svg>
-       </div>
-       <h3 class="text-xl font-bold text-blue-900 mb-4">Pemasaran Produk</h3>
-       <ul class="space-y-3">
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Produk toilet &amp; hygiene</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Premium scenting</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Keset pintu</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Air freshener</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Vacuum cleaner</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Produk kebersihan lainnya</span></li>
-       </ul>
-      </div><!-- Jasa -->
-      <div class="card-service bg-gradient-to-br from-green-50 to-white rounded-3xl p-6 lg:p-8 border border-green-100">
-       <div class="icon-box mb-6" style="background: linear-gradient(135deg, #d1fae5, #ffffff);">
-        <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-        </svg>
-       </div>
-       <h3 class="text-xl font-bold text-blue-900 mb-4">Jasa Profesional</h3>
-       <ul class="space-y-3">
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Layanan kebersihan</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Perawatan fasilitas</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Service struktur</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Perancangan &amp; perencanaan</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Maintenance &amp; layanan purnajual</span></li>
-       </ul>
-      </div><!-- Penyewaan -->
-      <div class="card-service bg-gradient-to-br from-purple-50 to-white rounded-3xl p-6 lg:p-8 border border-purple-100">
-       <div class="icon-box mb-6" style="background: linear-gradient(135deg, #ede9fe, #ffffff);">
-        <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-        </svg>
-       </div>
-       <h3 class="text-xl font-bold text-blue-900 mb-4">Penyewaan Alat</h3>
-       <ul class="space-y-3">
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Pengharum ruangan (diffuser &amp; aerosol)</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Mesin polisher</span></li>
-        <li class="flex items-start gap-3">
-         <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-         </svg><span class="text-gray-600 text-sm">Set alat cuci karpet</span></li>
-       </ul>
-       <div class="mt-6 pt-6 border-t border-purple-100">
-        <p class="text-xs text-gray-500">* Tersedia untuk jangka pendek &amp; panjang</p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- MSC Section -->
-   <section id="msc" class="py-16 lg:py-24 gradient-msc relative overflow-hidden"><!-- Background Elements -->
-    <div class="absolute inset-0">
-     <div class="absolute top-0 right-0 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
-     <div class="absolute bottom-0 left-0 w-64 h-64 bg-green-400/10 rounded-full blur-3xl"></div>
-    </div>
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="text-center mb-12">
-      <div class="inline-flex items-center gap-2 bg-white/95 px-4 py-2 rounded-full text-sm font-semibold text-blue-900 mb-4">
-       <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-       </svg> Program Unggulan
-      </div><!-- Masjid Icon -->
-      <div class="mb-6">
-       <div class="w-24 h-24 mx-auto bg-white/10 backdrop-blur-sm rounded-3xl flex items-center justify-center">
-        <svg class="w-14 h-14 text-white" viewbox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><path d="M32 8c-8 0-14 6-14 14v4h28v-4c0-8-6-14-14-14z" /> <path d="M32 2v6" /> <circle cx="32" cy="2" r="2" fill="currentColor" /> <rect x="8" y="26" width="48" height="32" rx="2" /> <rect x="26" y="38" width="12" height="20" /> <circle cx="32" cy="20" r="4" /> <path d="M14 26v-4a4 4 0 014-4" /> <path d="M50 26v-4a4 4 0 00-4-4" /> <rect x="12" y="32" width="8" height="12" rx="4" /> <rect x="44" y="32" width="8" height="12" rx="4" />
-        </svg>
-       </div>
-      </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">MSC – Masjid Service Center</h2>
-      <p class="text-blue-100 max-w-3xl mx-auto leading-relaxed">MSC (Masjid Service Center) adalah program khusus CV Trijaya Cleando Pratama yang berfokus pada kebersihan, kenyamanan, dan perawatan fasilitas masjid secara profesional. Program ini dirancang untuk membantu pengurus masjid menciptakan lingkungan ibadah yang bersih, harum, nyaman, dan terawat.</p>
-     </div>
-     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-12">
-      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-       <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-        </svg>
-       </div>
-       <h4 class="font-semibold text-white mb-2">Kebersihan Area Masjid</h4>
-       <p class="text-blue-200 text-sm">Pembersihan menyeluruh area dalam dan luar masjid</p>
-      </div>
-      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-       <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-        </svg>
-       </div>
-       <h4 class="font-semibold text-white mb-2">Pengharum Ruangan</h4>
-       <p class="text-blue-200 text-sm">Sistem diffuser &amp; aerosol khusus masjid</p>
-      </div>
-      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-       <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-        </svg>
-       </div>
-       <h4 class="font-semibold text-white mb-2">Perawatan Karpet &amp; Lantai</h4>
-       <p class="text-blue-200 text-sm">Treatment profesional untuk karpet dan lantai masjid</p>
-      </div>
-      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-       <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-        </svg>
-       </div>
-       <h4 class="font-semibold text-white mb-2">Penyewaan Alat</h4>
-       <p class="text-blue-200 text-sm">Alat kebersihan khusus untuk keperluan masjid</p>
-      </div>
-      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10 sm:col-span-2 lg:col-span-2">
-       <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-        </svg>
-       </div>
-       <h4 class="font-semibold text-white mb-2">Pendampingan &amp; Konsultasi</h4>
-       <p class="text-blue-200 text-sm">Tim ahli siap mendampingi pengurus masjid dalam perawatan fasilitas kebersihan secara berkelanjutan</p>
-      </div>
-     </div>
-     <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="#kontak" class="bg-white text-blue-900 px-8 py-4 rounded-2xl font-semibold text-base flex items-center justify-center gap-2 hover:bg-blue-50 transition-colors">
-       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-       </svg> Konsultasi Program MSC </a> <a id="msc-wa-btn" href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20program%20MSC%20(Masjid%20Service%20Center)" target="_blank" rel="noopener noreferrer" class="bg-green-500 text-white px-8 py-4 rounded-2xl font-semibold text-base flex items-center justify-center gap-2 hover:bg-green-600 transition-colors">
-       <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-       </svg> Hubungi via WhatsApp </a>
-     </div>
-    </div>
-   </section><!-- Proses Kerja Section -->
-   <section id="proses" class="py-16 lg:py-24 bg-gradient-to-b from-blue-50/50 to-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="text-center mb-12">
-      <div class="section-badge">
-       <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
-       </svg> Proses Kerja
-      </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Bagaimana Kami Bekerja</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Memberikan kualitas layanan, pemecahan masalah, dan respon yang akurat</p>
-     </div>
-     <div class="max-w-3xl mx-auto">
-      <div class="relative"><!-- Timeline -->
-       <div class="timeline-line hidden sm:block"></div><!-- Step 1 -->
-       <div class="relative flex gap-6 pb-12">
-        <div class="timeline-dot pulse-ring flex-shrink-0"><span class="text-white font-bold text-sm">1</span>
-        </div>
-        <div class="flex-1 pt-2">
-         <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
-          <h4 class="text-lg font-bold text-blue-900 mb-2">Layanan</h4>
-          <p class="text-gray-600">Analisis kebutuhan dan perencanaan layanan yang sesuai dengan kondisi dan kebutuhan spesifik Anda.</p>
-         </div>
-        </div>
-       </div><!-- Step 2 -->
-       <div class="relative flex gap-6 pb-12">
-        <div class="timeline-dot flex-shrink-0"><span class="text-white font-bold text-sm">2</span>
-        </div>
-        <div class="flex-1 pt-2">
-         <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
-          <h4 class="text-lg font-bold text-blue-900 mb-2">Pra Operasional</h4>
-          <p class="text-gray-600">Penataan, pengelolaan anggaran, perekrutan, dan pelatihan tim untuk memastikan kesiapan optimal.</p>
-         </div>
-        </div>
-       </div><!-- Step 3 -->
-       <div class="relative flex gap-6">
-        <div class="timeline-dot flex-shrink-0"><span class="text-white font-bold text-sm">3</span>
-        </div>
-        <div class="flex-1 pt-2">
-         <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100">
-          <h4 class="text-lg font-bold text-blue-900 mb-2">Operasional</h4>
-          <p class="text-gray-600">Pelaksanaan, peninjauan berkala, dan evaluasi berkelanjutan untuk memastikan standar kualitas tertinggi.</p>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Portfolio Section -->
-   <section id="portfolio" class="py-16 lg:py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="text-center mb-12">
-      <div class="section-badge">
-       <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-       </svg> Portfolio
-      </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Klien Kami</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto mb-8">Dipercaya oleh berbagai sektor industri</p><!-- Filter Buttons -->
-      <div class="flex flex-wrap justify-center gap-3 mb-8"><button class="portfolio-filter-btn active px-6 py-3 rounded-full font-semibold text-sm transition-all" data-category="all"> Semua </button> <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all" data-category="perkantoran"> Perkantoran </button> <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all" data-category="retail"> Retail &amp; Pertokoan </button> <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all" data-category="masjid"> Masjid </button> <button class="portfolio-filter-btn px-6 py-3 rounded-full font-semibold text-sm transition-all" data-category="industri"> Industri </button>
-      </div>
-     </div><!-- Portfolio Grid -->
-     <div id="portfolio-grid" class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6"><!-- Perkantoran -->
-      <div class="portfolio-item" data-category="perkantoran">
-       <div class="portfolio-card aspect-square bg-gradient-to-br from-blue-600 to-blue-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
-        <div class="absolute inset-0 flex items-center justify-center z-0">
-         <svg class="w-20 h-20 text-white/20" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-         </svg>
-        </div>
-        <div class="relative z-10">
-         <h4 class="text-white font-bold text-lg">Perkantoran</h4>
-         <p class="text-blue-200 text-sm">Office Buildings</p>
-        </div>
-       </div>
-      </div><!-- Retail -->
-      <div class="portfolio-item" data-category="retail">
-       <div class="portfolio-card aspect-square bg-gradient-to-br from-green-600 to-green-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
-        <div class="absolute inset-0 flex items-center justify-center z-0">
-         <svg class="w-20 h-20 text-white/20" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-         </svg>
-        </div>
-        <div class="relative z-10">
-         <h4 class="text-white font-bold text-lg">Retail &amp; Pertokoan</h4>
-         <p class="text-green-200 text-sm">Retail Stores</p>
-        </div>
-       </div>
-      </div><!-- Masjid -->
-      <div class="portfolio-item" data-category="masjid">
-       <div class="portfolio-card aspect-square bg-gradient-to-br from-purple-600 to-purple-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
-        <div class="absolute inset-0 flex items-center justify-center z-0">
-         <svg class="w-20 h-20 text-white/20" viewbox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M32 8c-8 0-14 6-14 14v4h28v-4c0-8-6-14-14-14z" /> <path d="M32 2v6" /> <circle cx="32" cy="2" r="2" fill="currentColor" /> <rect x="8" y="26" width="48" height="32" rx="2" />
-         </svg>
-        </div>
-        <div class="relative z-10">
-         <h4 class="text-white font-bold text-lg">Masjid</h4>
-         <p class="text-purple-200 text-sm">Mosques</p>
-        </div>
-       </div>
-      </div><!-- Industri -->
-      <div class="portfolio-item" data-category="industri">
-       <div class="portfolio-card aspect-square bg-gradient-to-br from-orange-600 to-orange-800 flex items-end p-6 cursor-pointer hover:scale-105 transition-transform">
-        <div class="absolute inset-0 flex items-center justify-center z-0">
-         <svg class="w-20 h-20 text-white/20" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-         </svg>
-        </div>
-        <div class="relative z-10">
-         <h4 class="text-white font-bold text-lg">Industri</h4>
-         <p class="text-orange-200 text-sm">Industrial</p>
-        </div>
-       </div>
-      </div>
-     </div><!-- Portfolio Images Container -->
-     <div id="portfolio-images" class="mt-12">
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"><!-- Placeholder images with styled background -->
-       <div class="portfolio-image-item perkantoran aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center p-6 border-2 border-blue-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-         </svg>
-         <p class="text-xs text-blue-700 font-medium">Kantor Project 1</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item perkantoran aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center p-6 border-2 border-blue-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-         </svg>
-         <p class="text-xs text-blue-700 font-medium">Kantor Project 2</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item perkantoran aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center p-6 border-2 border-blue-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
-         </svg>
-         <p class="text-xs text-blue-700 font-medium">Kantor Project 3</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item retail aspect-square bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center p-6 border-2 border-green-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-green-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-         </svg>
-         <p class="text-xs text-green-700 font-medium">Retail Project 1</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item retail aspect-square bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center p-6 border-2 border-green-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-green-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-         </svg>
-         <p class="text-xs text-green-700 font-medium">Retail Project 2</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item masjid aspect-square bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center p-6 border-2 border-purple-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-purple-600" viewbox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><path d="M32 8c-8 0-14 6-14 14v4h28v-4c0-8-6-14-14-14z" /> <rect x="8" y="26" width="48" height="32" rx="2" />
-         </svg>
-         <p class="text-xs text-purple-700 font-medium">Masjid Project 1</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item masjid aspect-square bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center p-6 border-2 border-purple-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-purple-600" viewbox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><path d="M32 8c-8 0-14 6-14 14v4h28v-4c0-8-6-14-14-14z" /> <rect x="8" y="26" width="48" height="32" rx="2" />
-         </svg>
-         <p class="text-xs text-purple-700 font-medium">Masjid Project 2</p>
-        </div>
-       </div>
-       <div class="portfolio-image-item industri aspect-square bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center p-6 border-2 border-orange-300">
-        <div class="text-center">
-         <svg class="w-12 h-12 mx-auto mb-2 text-orange-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-         </svg>
-         <p class="text-xs text-orange-700 font-medium">Industri Project 1</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Contact Section -->
-   <section id="kontak" class="py-16 lg:py-24 bg-gradient-to-b from-blue-50 to-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="text-center mb-12">
-      <div class="section-badge">
-       <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-       </svg> Hubungi Kami
-      </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Siap Membantu Anda</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Konsultasikan kebutuhan kebersihan dan hygiene Anda bersama tim profesional kami</p>
-     </div>
-     <div class="max-w-4xl mx-auto">
-      <div class="grid md:grid-cols-2 gap-6 mb-8"><!-- WhatsApp Card --> <a id="main-wa-btn" href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20CV%20Trijaya%20Cleando%20Pratama" target="_blank" rel="noopener noreferrer" class="card-service bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 text-white flex flex-col items-center text-center">
-        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4">
-         <svg class="w-8 h-8" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-         </svg>
-        </div><h4 class="text-xl font-bold mb-2">WhatsApp</h4><p class="text-green-100 text-sm mb-4">Respon cepat dalam hitungan menit</p><span class="bg-white/20 px-4 py-2 rounded-full text-sm font-medium">Chat Sekarang →</span> </a> <!-- Email Card -->
-       <div class="card-service bg-gradient-to-br from-blue-500 to-blue-600 rounded-3xl p-8 text-white flex flex-col items-center text-center">
-        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4">
-         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-         </svg>
-        </div>
-        <h4 class="text-xl font-bold mb-2">Email</h4>
-        <p class="text-blue-100 text-sm mb-4">Untuk proposal dan dokumen</p><span class="bg-white/20 px-4 py-2 rounded-full text-sm font-medium">info@trijayacleando.com</span>
-       </div>
-      </div><!-- Contact Info -->
-      <div class="bg-white rounded-3xl p-8 shadow-lg border border-blue-100">
-       <div class="grid sm:grid-cols-3 gap-6">
-        <div class="text-center">
-         <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
-          <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-          </svg>
-         </div>
-         <h5 class="font-semibold text-blue-900 text-sm mb-1">Alamat</h5>
-         <p class="text-gray-600 text-xs">JL. Andir No.130 RT 04/08<br>
-          Kel. Dungus Cariang, Kec. Andir<br>
-          Bandung</p>
-        </div>
-        <div class="text-center">
-         <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
-          <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-         </div>
-         <h5 class="font-semibold text-blue-900 text-sm mb-1">Jam Operasional</h5>
-         <p class="text-gray-600 text-xs">Senin - Sabtu: 08:00 - 17:00</p>
-        </div>
-        <div class="text-center">
-         <div class="w-12 h-12 mx-auto mb-3 bg-blue-100 rounded-xl flex items-center justify-center">
-          <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-          </svg>
-         </div>
-         <h5 class="font-semibold text-blue-900 text-sm mb-1">Telepon</h5>
-         <p class="text-gray-600 text-xs">+62 812 3456 7890</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Footer -->
-   <footer class="bg-blue-900 text-white py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-     <div class="grid md:grid-cols-3 gap-8 mb-8">
-      <div>
-       <div class="flex items-center gap-3 mb-4">
-        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
-         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-         </svg>
-        </div><span id="footer-company-name" class="font-bold">CV Trijaya Cleando Pratama</span>
-       </div>
-       <p class="text-blue-200 text-sm">Solusi terpadu pemasaran produk kebersihan, layanan jasa profesional, dan penyewaan peralatan hygiene.</p>
-      </div>
-      <div>
-       <h5 class="font-semibold mb-4">Layanan</h5>
-       <ul class="space-y-2 text-blue-200 text-sm">
-        <li><a href="#layanan" class="hover:text-white transition-colors">Pemasaran Produk</a></li>
-        <li><a href="#layanan" class="hover:text-white transition-colors">Jasa Profesional</a></li>
-        <li><a href="#layanan" class="hover:text-white transition-colors">Penyewaan Alat</a></li>
-        <li><a href="#msc" class="hover:text-white transition-colors">MSC - Masjid Service Center</a></li>
-       </ul>
-      </div>
-      <div>
-       <h5 class="font-semibold mb-4">Kontak</h5>
-       <ul class="space-y-2 text-blue-200 text-sm">
-        <li>📍 JL. Andir No.130 RT 04/08, Kel. Dungus Cariang, Kec. Andir, Bandung</li>
-        <li>📞 +62 812 3456 7890</li>
-        <li>✉️ info@trijayacleando.com</li>
-       </ul>
-      </div>
-     </div>
-     <div class="border-t border-blue-800 pt-8 text-center">
-      <p class="text-blue-300 text-sm">© 2024 CV Trijaya Cleando Pratama. All rights reserved.</p>
-     </div>
-    </div>
-   </footer>
-  </div>
-  <script src="main.js"></script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c03766c710b1ecc',t:'MTc2ODc5NTYxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</div>
+
+</body>
 </html>
+

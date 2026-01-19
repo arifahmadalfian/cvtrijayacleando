@@ -186,3 +186,36 @@ if (window.elementSdk) {
   // Fallback: run with default config
   onConfigChange(defaultConfig);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById("image-modal");
+  const modalImage = document.getElementById("modal-image");
+  const modalTitle = document.getElementById("modal-title");
+  const closeModal = document.getElementById("close-modal");
+
+  document.querySelectorAll(".portfolio-image-item").forEach(item => {
+    item.addEventListener("click", () => {
+      const image = item.getAttribute("data-image");
+      const title = item.getAttribute("data-title");
+
+      modalImage.src = image;
+      modalTitle.textContent = title;
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+    });
+  });
+
+  closeModal.addEventListener("click", () => {
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+    modalImage.src = "";
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+      modalImage.src = "";
+    }
+  });
+});

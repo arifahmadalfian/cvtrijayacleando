@@ -184,3 +184,36 @@ html {
 .mobile-menu.open {
   transform: translateX(0);
 }
+
+.portfolio-image-item {
+  position: relative;
+}
+
+/* Make navbar solid white on small screens so mobile menu isn't semi-transparent */
+@media (max-width: 1024px) {
+  #navbar {
+    background-color: #ffffff !important;
+    backdrop-filter: none !important;
+  }
+
+  #mobile-menu {
+    background-color: #ffffff !important;
+  }
+}
+
+/* Modal for image preview */
+.img-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 60;
+}
+
+.img-modal img {
+  max-width: 95%;
+  max-height: 90%;
+  border-radius: 8px;
+}
