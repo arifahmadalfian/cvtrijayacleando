@@ -2,7 +2,7 @@
 const defaultConfig = {
   company_name: 'CV Trijaya Cleando Pratama',
   hero_title: 'Solusi Hygiene, Jasa & Penyewaan Terpercaya',
-  whatsapp_number: '6281234567890',
+  whatsapp_number: '6282261837697',
   primary_color: '#0c2d5e',
   secondary_color: '#1e5499',
   accent_color: '#3b82c4',
